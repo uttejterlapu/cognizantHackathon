@@ -7,7 +7,6 @@ This project is a part of the Cognizant Hackathon and aims to develop an Exam Pr
 - **User Authentication**: Utilizes JWT authentication for secure user login and registration.
 - **Study Material**: Provides access to a wide range of study materials including notes, videos, and articles.
 - **Quiz Section**: Allows users to take quizzes on different subjects and topics to assess their knowledge.
-- **Mock Exams**: Simulates exam conditions with timed mock exams to help students prepare effectively.
 - **Progress Tracking**: Tracks user progress and provides insights into areas that need improvement.
 - **Responsive Design**: Built using Tailwind CSS for a responsive and visually appealing user interface across devices.
 
@@ -18,11 +17,3 @@ This project is a part of the Cognizant Hackathon and aims to develop an Exam Pr
 - **Node.js**: A JavaScript runtime environment used for server-side scripting and backend development.
 - **JWT (JSON Web Tokens)**: Utilized for user authentication and securing API endpoints.
 - **Tailwind CSS**: A utility-first CSS framework used for styling the frontend with ease.
-
-## Setup Instructions
-1. Clone the repository: `git clone <repository_url>`
-2. Navigate to the project directory: `cd exam-prep-assistance-system`
-3. Install dependencies:
-   ```bash
-   cd client && npm install
-   cd ../server && npm install

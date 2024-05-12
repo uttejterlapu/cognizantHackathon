@@ -37,7 +37,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:5000/signup",
+        "https://cognizanthackathon-1.onrender.com/signup",
         {
           ...inputValue,
         },

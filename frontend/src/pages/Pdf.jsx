@@ -14,7 +14,7 @@ const Pdf = () => {
         formData.append('pdf', selectedFile);
 
         try {
-            const response = await axios.post('http://localhost:5000/upload-pdf', formData, {
+            const response = await axios.post('https://cognizanthackathon-1.onrender.com/upload-pdf', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

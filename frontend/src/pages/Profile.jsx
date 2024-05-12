@@ -14,7 +14,7 @@ const Profile = () => {
                 navigate("/login");
             }
             const { data } = await axios.post(
-                "http://localhost:5000",
+                "https://cognizanthackathon-1.onrender.com",
                 {},
                 { withCredentials: true }
             );
@@ -45,7 +45,7 @@ const Profile = () => {
                 setLoading(true);
                 setError(null);
                 // Make a GET request to fetch user data by username
-                const response = await axios.get(`http://localhost:5000/api/users/${username}`);
+                const response = await axios.get(`https://cognizanthackathon-1.onrender.com/api/users/${username}`);
                 setUserData(response.data);
                 setLoading(false);
             } catch (error) {

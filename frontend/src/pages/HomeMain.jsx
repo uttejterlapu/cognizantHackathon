@@ -15,7 +15,7 @@ const HomeMain = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:5000",
+        "https://cognizanthackathon-1.onrender.com",
         {},
         { withCredentials: true }
       );

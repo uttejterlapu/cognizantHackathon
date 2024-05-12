@@ -15,7 +15,7 @@ const Multer = () => {
                 navigate("/login");
             }
             const { data } = await axios.post(
-                "http://localhost:5000",
+                "https://cognizanthackathon-1.onrender.com",
                 {},
                 { withCredentials: true }
             );
@@ -29,14 +29,14 @@ const Multer = () => {
     const handleUpload = (e) => {
         const formdata = new FormData()
         formdata.append('file', file)
-        axios.post('http://localhost:5000/api/upload', formdata)
+        axios.post('https://cognizanthackathon-1.onrender.com/api/upload', formdata)
             .then(res => console.log(res))
             .catch(err => console.log(err))
         console.log(file);
     }
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/getImage')
+        axios.get('https://cognizanthackathon-1.onrender.com/api/getImage')
             .then(res => setImage(res.data[0].image))
             .catch(err => console.log(err))
         // console.log(image)
@@ -46,7 +46,7 @@ const Multer = () => {
             <input type='file' onChange={e => setFile(e.target.files[0])} />
             <button onClick={handleUpload}>Upload</button>
             <br />
-            <img src={`http://localhost:5000/api/images/${image}`} alt='' />
+            <img src={`https://cognizanthackathon-1.onrender.com/api/images/${image}`} alt='' />
         </div>
     );
 };

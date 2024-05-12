@@ -36,7 +36,7 @@ const Login = () => {
         e.preventDefault();
         try {
             const { data } = await axios.post(
-                "http://localhost:5000/login",
+                "https://cognizanthackathon-1.onrender.com/login",
                 {
                     ...inputValue,
                 },

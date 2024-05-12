@@ -1,7 +1,28 @@
-# cognizantHackathon
+# Exam Preparation Assistance System
 
-### Exam Preparation Assistance
+## Description
+This project is a part of the Cognizant Hackathon and aims to develop an Exam Preparation Assistance System. The system assists students in preparing for their exams by providing various features such as study material, quizzes, mock exams, progress tracking, and more. It is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with JWT authentication for secure access and Tailwind CSS for styling.
 
-<a href='https://www.figma.com/file/PrP89uTcXOyLMClNbzXcWW/Untitled?type=design&node-id=0%3A1&mode=design&t=YmZDyfvX67yYtThI-1&fuid=1283840001001234280' target='_blank'>Figma</a>
+## Features
+- **User Authentication**: Utilizes JWT authentication for secure user login and registration.
+- **Study Material**: Provides access to a wide range of study materials including notes, videos, and articles.
+- **Quiz Section**: Allows users to take quizzes on different subjects and topics to assess their knowledge.
+- **Mock Exams**: Simulates exam conditions with timed mock exams to help students prepare effectively.
+- **Progress Tracking**: Tracks user progress and provides insights into areas that need improvement.
+- **Responsive Design**: Built using Tailwind CSS for a responsive and visually appealing user interface across devices.
 
-<a href='https://www.freecodecamp.org/news/how-to-secure-your-mern-stack-application/'>JWT</a>
+## Technologies Used
+- **MongoDB**: A NoSQL database used for storing user data, study materials, quizzes, and exam details.
+- **Express.js**: A web application framework for building APIs and handling server-side logic.
+- **React.js**: A JavaScript library for building user interfaces, used for the frontend development.
+- **Node.js**: A JavaScript runtime environment used for server-side scripting and backend development.
+- **JWT (JSON Web Tokens)**: Utilized for user authentication and securing API endpoints.
+- **Tailwind CSS**: A utility-first CSS framework used for styling the frontend with ease.
+
+## Setup Instructions
+1. Clone the repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd exam-prep-assistance-system`
+3. Install dependencies:
+   ```bash
+   cd client && npm install
+   cd ../server && npm install

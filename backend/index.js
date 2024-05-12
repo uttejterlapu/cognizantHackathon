@@ -23,7 +23,7 @@ app.listen(PORT, () => {
 
 app.use(
   cors({
-    origin: ["https://cognizant-hackathon.vercel.app/"],
+    origin: ["https://cognizant-hackathon.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
